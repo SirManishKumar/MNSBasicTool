@@ -1,5 +1,3 @@
-#!/bin/bash
-import os,sys,time
 #sys1
 def jalan(z):
     for e in z + '\n':
