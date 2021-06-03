@@ -22,7 +22,7 @@ logo = ("""\033[1;36m                              __
 #my logo
 print(logo)
 jalan(" ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮ ")
-jalan("\033[1;32m |\033[1;31mCreated By:- https://github.com/SirManishKumar/MNSBasicTool\033[1;32m  | ")
+jalan("\033[1;32m |\033[1;31mCreated By:- https://github.com/SirManishKumar/MNSBasicTool\033[1;32m | ")
 jalan("\033[1;32m |             \033[1;33mMy youtube channel: SirManishKumar\033[1;32m             | ")
 jalan("\033[1;32m |             \033[1;33mMy twitter account: SirManishKumar\033[1;32m             | ")
 jalan("\033[1;32m |              \033[1;33mMy github account: SirManishKumar\033[1;32m             | ")
