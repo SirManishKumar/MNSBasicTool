@@ -588,7 +588,6 @@ elif nmb=="99":
     os.system('mv MNSUpgrade $HOME ')
     os.system('cd && cd MNSUpgrade ')
     os.system('bash Upgrade.sh ')
-    os.system('clear ')
     jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools               ")
     os.system('figlet MNSTools ')
     time.sleep(000.10)
