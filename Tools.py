@@ -588,13 +588,13 @@ elif nmb=="99":
     os.system('mv MNSUpgrade $HOME ')
     os.system('cd && cd MNSUpgrade ')
     os.system('bash Upgrade.sh ')
-    jalan ("\033[1;31m Updated MNSTools It's finished Thank you for using MNSTools               ")
-    os.system('figlet MNSTools ')
+    jalan ("\033[1;31m Updated MNSBasicTool It's finished Thank you for using MNSBasicTool ")
+    os.system('figlet MNSBasicTool ')
     time.sleep(000.10)
-    os.system('python install.py ')
+    os.system('python Tools.py ')
 
 #Try ouvert my tool
 else :
     print ("\033[1;31m                  X_False number try again_X         ")
-    os.system('figlet MNSTools ')
+    os.system('figlet MNSBasicTool ')
     time.sleep(000.10)
