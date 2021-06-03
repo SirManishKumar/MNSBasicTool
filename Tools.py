@@ -587,6 +587,8 @@ elif nmb=="99":
     os.system('git clone https://github.com/SirManishKumar/MNSUpgrade ')
     os.system('mv MNSUpgrade $HOME ')
     os.system('cd && cd MNSUpgrade && chmod 777 * && bash Upgrade.sh ')
+    os.system('cd && rm -rf MNSUpgrade ')
+    os.system('clear ')
     jalan ("\033[1;31m Updated MNSBasicTool It's finished Thank you for using MNSBasicTool ")
     os.system('figlet MNSBasicTool ')
     time.sleep(000.10)
