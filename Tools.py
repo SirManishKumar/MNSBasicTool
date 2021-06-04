@@ -23,10 +23,10 @@ logo = ("""\033[1;36m                              __
 print(logo)
 jalan(" ╭━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╮ ")
 jalan("\033[1;32m |\033[1;31mCreated By:- https://github.com/SirManishKumar/MNSBasicTool\033[1;32m | ")
-jalan("\033[1;32m |             \033[1;33mMy youtube channel: SirManishKumar\033[1;32m             | ")
-jalan("\033[1;32m |             \033[1;33mMy twitter account: SirManishKumar\033[1;32m             | ")
-jalan("\033[1;32m |              \033[1;33mMy github account: SirManishKumar\033[1;32m             | ")
-jalan("\033[1;32m |            \033[1;33mMy facebook account: SirManishKumar\033[1;32m             | ")
+jalan("\033[1;32m |             \033[1;33mMy Youtube Channel: SirManishKumar\033[1;32m             | ")
+jalan("\033[1;32m |             \033[1;33mMy Twitter Account: SirManishKumar\033[1;32m             | ")
+jalan("\033[1;32m |              \033[1;33mMy Github Account: SirManishKumar\033[1;32m             | ")
+jalan("\033[1;32m |            \033[1;33mMy Facebook Account: SirManishKumar\033[1;32m             | ")
 jalan("\033[1;32m ╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯ ")
 print ("")
 print ("\033[1;31m [1]  \033[1;32m Update & Upgrade            \033[1;31m [21] \033[1;32m Install Figlet ")
@@ -50,8 +50,8 @@ print ("\033[1;31m [18] \033[1;32m Install Lolcat              \033[1;31m [38] \
 print ("\033[1;31m [19] \033[1;32m Install Colorama            \033[1;31m [39] \033[1;32m Install MNSUbuntu ")
 print ("\033[1;31m [20] \033[1;32m Install Unstable-Repo       \033[1;31m [40] \033[1;32m Install MNSAllTools ")
 print ("")
-print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update     \033[1;31m [r] \033[1;32m Restart   \033[1;31m [g] \033[1;32m Github ")
-print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook   \033[1;31m [t] \033[1;32m Twitter   \033[1;31m [w] \033[1;32m WhatsApp ")
+print ("\033[1;31m [0] \033[1;32m Exit     \033[1;31m [99] \033[1;32m Update    \033[1;31m [r] \033[1;32m Refresh  \033[1;31m [g] \033[1;32m Github ")
+print ("\033[1;31m [y] \033[1;32m Youtube   \033[1;31m [f] \033[1;32m Facebook  \033[1;31m [t] \033[1;32m Twitter  \033[1;31m [w] \033[1;32m WhatsApp ")
 print ("")
 nmb = input(" \033[1;32mChoose Number \033[1;31m: ")
 print ("")
@@ -100,11 +100,6 @@ elif nmb=="g":
     os.system('xdg-open https://github.com/SirManishKumar ')
     jalan("\033[1;31m It's finished Thank you for using MNSBasicTool.                ")
     os.system('python Tools.py ')
-
-
-    os.system('apt –fix-broken install ')
-    os.system('clear ')
-
 
 #Update & Upgrade
 elif nmb=="1":
@@ -599,3 +594,4 @@ else :
     print ("\033[1;31m                  X_False number try again_X         ")
     os.system('figlet MNSBasicTool ')
     time.sleep(000.10)
+    os.system('python Tools.py ')
