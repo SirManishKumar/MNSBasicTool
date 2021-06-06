@@ -65,7 +65,7 @@ if nmb=="0":
 elif nmb=="w":
     jalan("\033[1;31m Contacting To Server Please Wait.............................💯")
     jalan("\033[1;33m Starting To Connecting WhatsApp Please Wait.                   ")
-    os.system('xdg-open https://wa.me/+919554988808?text=*From%20MNSTools-*%20I%20Have%20To%20Ask%20For%20 ')
+    os.system('xdg-open https://wa.me/+919554988808?text=*From%20MNSBasicTool-*%20I%20Have%20To%20Ask%20For%20 ')
     jalan("\033[1;31m It's finished Thank you for using MNSBasicTool.                ")
     os.system('python Tools.py ')
 
@@ -137,7 +137,7 @@ elif nmb=="3":
     os.system('apt update && apt upgrade')
     os.system('pkg install git ')
     jalan("\033[1;31m It's finished Install git Thank you for using MNSTools         ")
-    os.system('figlet MNSTools ')
+    os.system('figlet MNSBasicTool ')
     time.sleep(000.10)
     os.system('python Tools.py ')
 
